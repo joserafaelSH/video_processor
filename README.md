@@ -30,6 +30,9 @@ This repository contains a distributed video processing pipeline implemented usi
 
 ## **Project Overview**
 
+![target](https://github.com/user-attachments/assets/5069fb09-4d03-4c87-84f8-bf549b420805)
+
+
 This project implements a scalable video processing pipeline where video files are uploaded, chunked, stored, and processed asynchronously. The application is split into multiple microservices, written in Node.js and Go, that communicate via Kafka topics. The entire pipeline is containerized using Docker and orchestrated in Kubernetes.
 
 ## **Architecture**
